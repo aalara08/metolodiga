@@ -47,6 +47,12 @@ namespace metodologia
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
 			this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+			this.comboBox1 = new System.Windows.Forms.ComboBox();
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+			this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+			this.flowLayoutPanel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// checkBox1
@@ -108,6 +114,7 @@ namespace metodologia
 			// 
 			// flowLayoutPanel1
 			// 
+			this.flowLayoutPanel1.Controls.Add(this.groupBox1);
 			this.flowLayoutPanel1.Location = new System.Drawing.Point(109, 149);
 			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
 			this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 100);
@@ -135,11 +142,57 @@ namespace metodologia
 			this.checkedListBox2.Size = new System.Drawing.Size(120, 94);
 			this.checkedListBox2.TabIndex = 10;
 			// 
+			// comboBox1
+			// 
+			this.comboBox1.FormattingEnabled = true;
+			this.comboBox1.Location = new System.Drawing.Point(-39, 52);
+			this.comboBox1.Name = "comboBox1";
+			this.comboBox1.Size = new System.Drawing.Size(121, 21);
+			this.comboBox1.TabIndex = 11;
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.Location = new System.Drawing.Point(55, 101);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(104, 24);
+			this.radioButton1.TabIndex = 12;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "radioButton1";
+			this.radioButton1.UseVisualStyleBackColor = true;
+			// 
+			// groupBox1
+			// 
+			this.groupBox1.Location = new System.Drawing.Point(3, 3);
+			this.groupBox1.Name = "groupBox1";
+			this.groupBox1.Size = new System.Drawing.Size(200, 100);
+			this.groupBox1.TabIndex = 0;
+			this.groupBox1.TabStop = false;
+			this.groupBox1.Text = "groupBox1";
+			// 
+			// dateTimePicker2
+			// 
+			this.dateTimePicker2.Location = new System.Drawing.Point(136, 97);
+			this.dateTimePicker2.Name = "dateTimePicker2";
+			this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+			this.dateTimePicker2.TabIndex = 13;
+			// 
+			// checkedListBox3
+			// 
+			this.checkedListBox3.FormattingEnabled = true;
+			this.checkedListBox3.Location = new System.Drawing.Point(-104, 121);
+			this.checkedListBox3.Name = "checkedListBox3";
+			this.checkedListBox3.Size = new System.Drawing.Size(120, 94);
+			this.checkedListBox3.TabIndex = 14;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.checkedListBox3);
+			this.Controls.Add(this.dateTimePicker2);
+			this.Controls.Add(this.radioButton1);
+			this.Controls.Add(this.comboBox1);
 			this.Controls.Add(this.checkedListBox2);
 			this.Controls.Add(this.hScrollBar1);
 			this.Controls.Add(this.textBox2);
@@ -153,9 +206,15 @@ namespace metodologia
 			this.Controls.Add(this.checkBox1);
 			this.Name = "MainForm";
 			this.Text = "metodologia";
+			this.flowLayoutPanel1.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.CheckedListBox checkedListBox3;
+		private System.Windows.Forms.DateTimePicker dateTimePicker2;
+		private System.Windows.Forms.RadioButton radioButton1;
+		private System.Windows.Forms.ComboBox comboBox1;
+		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.CheckedListBox checkedListBox2;
 		private System.Windows.Forms.HScrollBar hScrollBar1;
 		private System.Windows.Forms.TextBox textBox2;
