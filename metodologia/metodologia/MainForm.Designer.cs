@@ -52,6 +52,10 @@ namespace metodologia
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
 			this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+			this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+			this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
+			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+			this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
 			this.flowLayoutPanel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -184,11 +188,45 @@ namespace metodologia
 			this.checkedListBox3.Size = new System.Drawing.Size(120, 94);
 			this.checkedListBox3.TabIndex = 14;
 			// 
+			// flowLayoutPanel2
+			// 
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(-185, 139);
+			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(200, 100);
+			this.flowLayoutPanel2.TabIndex = 15;
+			// 
+			// domainUpDown1
+			// 
+			this.domainUpDown1.Location = new System.Drawing.Point(-4, 70);
+			this.domainUpDown1.Name = "domainUpDown1";
+			this.domainUpDown1.Size = new System.Drawing.Size(120, 20);
+			this.domainUpDown1.TabIndex = 16;
+			this.domainUpDown1.Text = "domainUpDown1";
+			// 
+			// dateTimePicker3
+			// 
+			this.dateTimePicker3.Location = new System.Drawing.Point(8, 52);
+			this.dateTimePicker3.Name = "dateTimePicker3";
+			this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
+			this.dateTimePicker3.TabIndex = 17;
+			// 
+			// checkedListBox4
+			// 
+			this.checkedListBox4.FormattingEnabled = true;
+			this.checkedListBox4.Location = new System.Drawing.Point(-35, 27);
+			this.checkedListBox4.Name = "checkedListBox4";
+			this.checkedListBox4.Size = new System.Drawing.Size(120, 94);
+			this.checkedListBox4.TabIndex = 18;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.checkedListBox4);
+			this.Controls.Add(this.dateTimePicker3);
+			this.Controls.Add(this.domainUpDown1);
+			this.Controls.Add(this.flowLayoutPanel2);
 			this.Controls.Add(this.checkedListBox3);
 			this.Controls.Add(this.dateTimePicker2);
 			this.Controls.Add(this.radioButton1);
@@ -210,6 +248,10 @@ namespace metodologia
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.CheckedListBox checkedListBox4;
+		private System.Windows.Forms.DateTimePicker dateTimePicker3;
+		private System.Windows.Forms.DomainUpDown domainUpDown1;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
 		private System.Windows.Forms.CheckedListBox checkedListBox3;
 		private System.Windows.Forms.DateTimePicker dateTimePicker2;
 		private System.Windows.Forms.RadioButton radioButton1;
