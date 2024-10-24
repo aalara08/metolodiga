@@ -56,7 +56,16 @@ namespace metodologia
 			this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
 			this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
 			this.checkedListBox4 = new System.Windows.Forms.CheckedListBox();
+			this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.radioButton2 = new System.Windows.Forms.RadioButton();
+			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+			this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
+			this.checkedListBox5 = new System.Windows.Forms.CheckedListBox();
+			this.textBox5 = new System.Windows.Forms.TextBox();
 			this.flowLayoutPanel1.SuspendLayout();
+			this.flowLayoutPanel3.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// checkBox1
@@ -218,11 +227,79 @@ namespace metodologia
 			this.checkedListBox4.Size = new System.Drawing.Size(120, 94);
 			this.checkedListBox4.TabIndex = 18;
 			// 
+			// dateTimePicker4
+			// 
+			this.dateTimePicker4.Location = new System.Drawing.Point(159, 54);
+			this.dateTimePicker4.Name = "dateTimePicker4";
+			this.dateTimePicker4.Size = new System.Drawing.Size(200, 20);
+			this.dateTimePicker4.TabIndex = 19;
+			// 
+			// textBox3
+			// 
+			this.textBox3.Location = new System.Drawing.Point(135, 60);
+			this.textBox3.Name = "textBox3";
+			this.textBox3.Size = new System.Drawing.Size(100, 20);
+			this.textBox3.TabIndex = 20;
+			// 
+			// radioButton2
+			// 
+			this.radioButton2.Location = new System.Drawing.Point(45, 57);
+			this.radioButton2.Name = "radioButton2";
+			this.radioButton2.Size = new System.Drawing.Size(104, 24);
+			this.radioButton2.TabIndex = 21;
+			this.radioButton2.TabStop = true;
+			this.radioButton2.Text = "radioButton2";
+			this.radioButton2.UseVisualStyleBackColor = true;
+			// 
+			// textBox4
+			// 
+			this.textBox4.Location = new System.Drawing.Point(33, 108);
+			this.textBox4.Name = "textBox4";
+			this.textBox4.Size = new System.Drawing.Size(100, 20);
+			this.textBox4.TabIndex = 22;
+			// 
+			// flowLayoutPanel3
+			// 
+			this.flowLayoutPanel3.Controls.Add(this.textBox5);
+			this.flowLayoutPanel3.Location = new System.Drawing.Point(-23, -46);
+			this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+			this.flowLayoutPanel3.Size = new System.Drawing.Size(200, 100);
+			this.flowLayoutPanel3.TabIndex = 23;
+			// 
+			// flowLayoutPanel4
+			// 
+			this.flowLayoutPanel4.Location = new System.Drawing.Point(45, 163);
+			this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+			this.flowLayoutPanel4.Size = new System.Drawing.Size(200, 100);
+			this.flowLayoutPanel4.TabIndex = 24;
+			// 
+			// checkedListBox5
+			// 
+			this.checkedListBox5.FormattingEnabled = true;
+			this.checkedListBox5.Location = new System.Drawing.Point(-4, 70);
+			this.checkedListBox5.Name = "checkedListBox5";
+			this.checkedListBox5.Size = new System.Drawing.Size(120, 94);
+			this.checkedListBox5.TabIndex = 25;
+			// 
+			// textBox5
+			// 
+			this.textBox5.Location = new System.Drawing.Point(3, 3);
+			this.textBox5.Name = "textBox5";
+			this.textBox5.Size = new System.Drawing.Size(100, 20);
+			this.textBox5.TabIndex = 0;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.checkedListBox5);
+			this.Controls.Add(this.flowLayoutPanel4);
+			this.Controls.Add(this.flowLayoutPanel3);
+			this.Controls.Add(this.textBox4);
+			this.Controls.Add(this.radioButton2);
+			this.Controls.Add(this.textBox3);
+			this.Controls.Add(this.dateTimePicker4);
 			this.Controls.Add(this.checkedListBox4);
 			this.Controls.Add(this.dateTimePicker3);
 			this.Controls.Add(this.domainUpDown1);
@@ -245,9 +322,19 @@ namespace metodologia
 			this.Name = "MainForm";
 			this.Text = "metodologia";
 			this.flowLayoutPanel1.ResumeLayout(false);
+			this.flowLayoutPanel3.ResumeLayout(false);
+			this.flowLayoutPanel3.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.CheckedListBox checkedListBox5;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
+		private System.Windows.Forms.TextBox textBox5;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.RadioButton radioButton2;
+		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.DateTimePicker dateTimePicker4;
 		private System.Windows.Forms.CheckedListBox checkedListBox4;
 		private System.Windows.Forms.DateTimePicker dateTimePicker3;
 		private System.Windows.Forms.DomainUpDown domainUpDown1;
